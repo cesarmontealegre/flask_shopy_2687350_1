@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+ {% block head%}
+ {{ super()}}
+{% endblock %} 
+ 
+ {% block body %} 
+    {% include 'navbar.html' %}
+    <!-- Espacio para las vistas -->
+    {% block content %}
+
+
+    {% endblock %}
+    <!-- Fin Espacio -->
+
+    {% block scripts %} 
+    {% endblock %} 
+{% endblock %}
